@@ -32,7 +32,7 @@ const AppointmentForm = ({ modalIsOpen, closeModal, appointmentOn, date }) => {
         .then(success => {
             if(success){
                 closeModal();
-                alert('Appointment created successfully.');
+                // alert('Appointment created successfully.');
             }
         })
 
